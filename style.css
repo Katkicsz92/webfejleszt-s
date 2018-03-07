@@ -1,0 +1,72 @@
+h1 {
+  color: #777777;
+}
+
+p {
+  color: #1d1c5c;
+}
+
+.pelda{
+  color: orangered;
+  background-color: green;
+}
+
+.pelda2{
+  color: green;
+  font-size: 35px;
+}
+
+#content-1 p{
+  background-color: yellow;
+  margin: 20px;30px;
+}
+
+#content-2 p{
+  background-image: url("a.jpg");
+  background-size: contain;
+  padding: 40px;
+}
+
+.menu{
+  background-size: 30px;
+  background-color: yellow;
+  font-size: 20px;
+}
+
+.as1{
+  background-color: purple;
+
+}
+
+.as2{
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer{
+  background-color: orangered
+}
+
+.wrapper{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+
+}
+
+@media all and (min-width: 600px) {
+  .as1 { flex: 1 auto; }
+}
+
+@media all and (min-width: 800px) {
+.as1 {order: 1;}
+.pelada2 {order: 2;}
+.as2 {order:3;}
+.footer {order:4;}
+}

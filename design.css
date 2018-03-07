@@ -1,0 +1,12 @@
+.hatter{
+  background-image: url("hatter.jpg")
+}
+body {
+  background-image: image("hatter.jpg");
+}
+
+.teszt{
+  background-color: lightgreen;
+  font-size: 25px;
+  color: #ffffff;
+}
